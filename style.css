@@ -1,0 +1,530 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+   
+}
+body{
+    font-size: 90%;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(32, 137, 207, 0.479),rgba(34, 128, 204, 0.603)) ,url("./imges/idea_sized-kendal-l4ikccachoc-unsplash.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    width: 100%;
+    height: 15vh;
+    background-color:rgba(34, 128, 204, 0.803);
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    width: 100%;
+}
+.icon-box{
+    position: absolute;
+    display: none;
+    font-size: 40px;
+    color: white;
+    top: 30%;
+    right: 4%;
+}
+.main-1{
+    position: absolute;
+    display: inline;
+    left: 8%;
+    width: 20%;
+    height: 15vh;
+    display: inline;
+}
+
+.logo-img{
+    width: 20%;
+   
+    height: 10vh;
+    position: absolute;
+    top: 3vh;
+}
+.he1{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    font-size: 50px;
+    color: white;
+}
+.ul-1 ul li{
+    list-style: none;
+    float: right;
+    padding:7% 20px;
+    color: white;
+    font-size: 18px;
+}
+.ul-1{
+    position: absolute;
+ right: 8%;
+ 
+}
+.ul-1 ul li a:link,
+.ul-1 ul li a:visited{
+    color: #ffffff;
+    padding: 5px 0px;
+    text-decoration: none;
+  
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+
+}
+.ul-1 ul li a:hover,
+.ul-1 ul li a:active{
+    border-bottom: 2px solid blue;
+}
+.main-heading{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   transform: translate(-50%,-50%);
+   text-align: center;
+   color: white;
+}
+.q1{
+    font-size: 70px;
+}
+.q2{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.main-btn{
+    background-color:rgba(34, 128, 204, 0.803);
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    font-size: 15px;
+    border-radius: 15px;
+    margin-top: 20px;
+  
+
+}
+button:hover{
+    background-color:lightskyblue;
+    color: black;
+}
+.top-btn{
+    position: absolute;
+    top: 90%;
+    left: 90%;
+    color: #ffffff;
+    padding: 5px 15px;
+    text-decoration: none;
+    background-color: rgb(0, 183, 255);
+   position: fixed;
+    font-size: 20px;
+    z-index: 100;
+}
+.main-about{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.content-about{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    text-align: center;
+    top: 20vh;
+}
+.w1{
+    font-size: 30px;
+}
+.w2{
+    font-size: 20px;
+    margin-top: 25px;
+}
+.w1::before{
+    content:'';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background:lightskyblue;
+    position: absolute;
+    top: 40px;
+    left: 47%;
+   
+}
+.detiles{
+    position: absolute;
+    left: 10%;
+    width: 35%;
+    top: 40vh;
+}
+.w4{
+    margin-top: 20px;
+}
+.ul-2{
+    line-height: 25px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.w5{
+    margin-top: 10px;
+}
+.about-img{
+    position: absolute;
+    width: 40%;
+    left: 50%;
+    top: 40vh;
+    height: 55vh;
+}
+.multi-main{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+.e1{
+    position:absolute;
+    
+    top: 5%;
+    font-size: 30px;
+    left: 45%;
+}
+.e1::before{
+    content:'';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background:lightskyblue;
+    position: absolute;
+    top: 40px;
+    left: 25%;
+   
+}
+.e2{
+    position: absolute;
+    left: 8%;
+    color: rgb(15, 92, 180);
+    top: 20%;
+    font-size: 30px;
+}
+.baes6{
+    position: absolute;
+    width: 19%;
+    height: 60vh;
+    top: 30vh;
+ background-color: white;
+    left: 10%;
+    text-align: center;
+}
+.multisure{
+    height: 45%;
+    width: 70%;
+    left: 15%;
+    position: absolute;
+    top: 5%;
+    transition:  transform 0.5s ease-in-out;
+}
+.multisure:hover{
+    transform: scale(1.3);
+   
+
+}
+.e3{
+    position: absolute;
+    top: 55%;
+    color: rgb(0, 102, 165);
+    left:5%;
+   
+}
+.e4{
+    position: absolute;
+    top: 75%;
+    font-size: 20px;
+    font-weight: 600;
+    left: 7%;
+}
+.e5{
+    background-color:rgba(34, 128, 204, 0.803);
+    border: 1px solid white;
+    padding: 10px 40px;
+    color: white;
+    font-size: 15px;
+    border-radius: 15px;
+   position: absolute;
+   top: 85%;
+   left: 15%;
+  
+
+}
+.men-per{
+    position: absolute;
+    width: 19%;
+    height: 60vh;
+    top: 30vh;
+ background-color: white;
+    left: 30%;
+    text-align: center;
+}
+.centrum{
+    position: absolute;
+    width: 19%;
+    height: 60vh;
+    top: 30vh;
+ background-color: white;
+    left: 50%;
+    text-align: center;
+}
+.multifector{
+    position: absolute;
+    width: 19%;
+    height: 60vh;
+    top: 30vh;
+ background-color: white;
+    left: 70%;
+    text-align: center;
+}
+.main-baby{
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    background-color: whitesmoke;
+}
+.baby{
+    position: absolute;
+    left: 8%;
+    color: rgb(15, 92, 180);
+    top: 10%;
+    font-size: 30px;
+}
+.milk{
+    position: absolute;
+    width: 19%;
+    height: 60vh;
+    top: 20%;
+ background-color: white;
+    left: 10%;
+    text-align: center;
+}
+.lotion{
+    position: absolute;
+    width: 19%;
+    height: 60vh;
+    top: 20%;
+ background-color: white;
+    left: 30%;
+    text-align: center;
+}
+.feeder{
+    position: absolute;
+    width: 19%;
+    height: 60vh;
+    top: 20%;
+ background-color: white;
+    left: 50%;
+    text-align: center;
+}
+.bath{
+    position: absolute;
+    width: 19%;
+    height: 60vh;
+    top: 20%;
+ background-color: white;
+    left: 70%;
+    text-align: center;
+}
+.raper-coment{
+    position: relative;
+    width: 100%;
+    height: 70vh;
+
+}
+.he-t{
+    color:black;
+    left:42%;
+    top: 5%;
+    position: absolute;
+    font-size: 30px;
+}
+.he-t::before{
+    content:'';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background:lightskyblue;
+    position: absolute;
+    top: 40px;
+    left: 30%;
+   
+}
+.box1{
+position: absolute;
+width: 25%;
+height: 35vh;
+left: 10%;
+top: 30%;
+background-color:whitesmoke;
+text-align: center;
+}
+.p1{
+    font-size: 20px;
+    font-style: italic;
+    padding: 5px 20px;
+    font-weight: 800;
+  
+    
+}
+.fa-quote-left{
+    font-size: 30px;
+    padding: 5px 10px ;
+}
+.hehe{
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    color:rgb(0, 102, 165);
+}
+.box2{
+    position: absolute;
+    width: 25%;
+    height: 35vh;
+    left: 37%;
+    top: 30%;
+    background-color: whitesmoke;
+    text-align: center;
+    }
+    .box3{
+        position: absolute;
+        width: 25%;
+        height: 35vh;
+        left: 64%;
+        top: 30%;
+        background-color: whitesmoke;
+        text-align: center;
+        }
+        .team{
+            position: relative;
+            width: 100%;
+            background-color: whitesmoke;
+            height: 500px;
+        }
+        .team-content{
+            position: absolute;
+            top: 5%;
+            left: 10%;
+            width: 80%;
+            height: 130px;
+          
+            text-align: center;
+        }
+        .team-h{
+            font-size: 30px;
+        }
+        .team-h::before{
+            content:'';
+            display: block;
+            width: 60px;
+            height: 4px;
+            background:lightskyblue;
+            position: absolute;
+            top: 40px;
+            left: 47%;
+           
+        }
+        .team-p{
+            margin-top: 20px;
+            font-size: 20px;
+        }
+        .john{
+            position: absolute;
+            width: 40%;
+            left: 10%;
+            top: 30%;
+        }
+        .john-img{
+            width: 20%;
+            height: 130px;
+            position: absolute;
+        }
+        .john-text{
+            position: absolute;
+           height: 150px;
+            left: 25%;
+            top: 5%;
+           
+        }
+        .john-h{
+            font-size: 30px;
+        }
+        .john-icon{
+            padding:5px 0px;
+        }
+        .jane{
+           position: absolute;
+           width: 40%;
+           left: 50%;
+           top: 30%;
+       }
+       .hana{
+           position: absolute;
+           width: 40%;
+           left: 10%;
+           top: 65%;
+       }
+       .mary{
+           position: absolute;
+           width: 40%;
+           left: 50%;
+           top: 65%;
+       }
+       .map{
+           position: relative;
+           width: 100%;
+           height: 50vh;
+           margin: 2rem 0;
+           
+       }
+       .map-img{
+           position: absolute;
+          
+           width: 100%;
+           height: 50vh;
+         
+       }
+       
+.end{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.904);
+}
+.end-content{
+    position: absolute;
+    color: white;
+    width: 35%;
+    left: 10%;
+    top: 70px;
+}
+.end2{
+    margin-top: 30px;
+    line-height: 25px;
+}
+.end-icon{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.end-icon i{
+    padding: 5px 5px;
+    color: gray;
+}
+.copy{
+    position: absolute;
+    color: gray;
+    left: 30%;
+    top: 87%;
+}
+
+
+

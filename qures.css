@@ -1,0 +1,423 @@
+@media(max-width:1280px){
+.icon-box{
+    display: none;
+}
+
+}
+@media (max-width:768px){
+    body{
+        font-size: 80%;
+    }
+    .icon-box{
+        display: block;
+    }
+
+    .ul-1{
+display: none;
+}
+
+.logo-img{
+    width: 40%;
+   
+}
+.he1{
+    left: 90px;
+}
+.about-img{
+    height: 35vh;
+}
+.w5{
+    width: 230%;
+    font-size: 20px;
+}
+.w4{
+   
+    font-size: 25px;
+}
+.ul-2{
+    width: 230%;
+    font-size: 22px;
+}
+.w3,
+.w2{
+    font-size: 25px;
+}
+.w1{
+    font-size: 40px;
+}
+.w1::before{
+    left: 45%;
+    top: 50px;
+}
+
+
+.multi-main{
+  
+    height: 150vh;
+}
+.e2{
+    position: relative;
+    top: 10%;
+}
+.top-btn{
+left: 80%;
+}
+.fa-bars{
+  left: 80%;
+}
+nav{
+    width: 93%;
+}
+.centrum{
+    
+    top: 50%;
+    left: 10%;
+    width: 38%;
+
+}
+.multifector{
+    top: 50%;
+    left: 50%;
+    width: 38%;
+}
+.baes6{
+    top: 15%;
+    width: 38%;
+    left: 10%;
+    height: 50vh;
+}
+.men-per{
+    top: 15%;
+    width: 38%;
+    left: 50%;
+    height: 50vh;
+}
+
+
+.end-content{
+    width: 80%;
+}
+.copy{
+    top: 90%;
+    left: 15%;
+}
+.main-baby{
+   
+    height: 120vh;
+}
+.baby{
+    top: 0;
+}
+.milk{
+    top: 10%;
+    width: 38%;
+    left: 10%;
+    height: 50vh;
+}
+.lotion{
+    top: 10%;
+    width: 38%;
+    left: 50%;
+    height: 50vh;
+}
+.feeder{
+top: 53%;
+left: 10%;
+width: 38%;
+height: 50vh;
+
+}
+.bath{
+    top: 53%;
+    left: 50%;
+    width: 38%;
+    height: 50vh;
+}
+.box1{
+top: 15%;
+width: 38.5%;
+left: 10%;
+height: 40%;
+
+}
+.box2{
+    top: 15%;
+    width: 38.5%;
+    left: 50%;
+    height: 40%;
+
+}
+.box3{
+    top: 57%;
+    width: 80%;
+    left: 10%;
+    height: 35%;
+}
+.he-t{
+    left: 40%;
+}
+
+
+
+}
+
+
+@media(max-width:480px){
+header{
+    background-position: center;
+  
+}
+
+.fa-bars{
+    left: 85%;
+}
+    .ul-1{
+        display: none;
+        }
+        .logo-img{
+            width: 70%;
+           
+        }
+        .content-about{
+            position: relative;
+            top: 5%;
+        }
+        .multi-main{
+            position: relative;
+        }
+        .baes6{
+            position: relative;
+            width: 80%;
+            left: 10%;
+            height: 45vh;
+            top: 150px;
+        }
+        .men-per{
+            position: relative;
+            width: 80%;
+            left: 10%;
+            height: 45vh;
+            top: 200px;
+        }
+        .centrum{
+            position: relative;
+            width: 80%;
+            left: 10%;
+            height: 45vh;
+            top: 250px;
+          
+        }
+        .multifector{
+            position: relative;
+            width: 80%;
+            left: 10%;
+            height: 45vh;
+            top: 300px;
+           
+        }
+        .multi-main{
+            height: auto;
+        }
+        .e1{
+            top: 40px;
+            left: 39%;
+        }
+        .e2{
+            top: 100px;
+        }
+        .e4{
+           
+            top: 65%;
+            font-size: 1.1rem;
+          
+            left: 5%;
+        }
+        .e5{
+          
+            padding: 10px 30px;
+          
+            font-size: 10px;
+         
+           top: 80%;
+           left: 35%;
+          
+        
+        }
+      
+        .about-img{
+            position: relative;
+            width: 80%;
+           left: 10%;
+           top: 10vh;
+           height: 35vh;
+        }
+        .detiles{
+            position: relative;
+            width: 80%;
+            left: 10%;
+            top: 10vh;
+        }
+        .w3{
+            font-size: 1.3rem;
+
+        }
+        .w4{
+            font-size: 1.1rem;
+
+        }
+        .w5{
+            width: 100%;
+        }
+        .ul-2{
+            width: 100%;
+            font-size: 1.2rem;
+        }
+        .w1::before{
+            left: 40%;
+           
+        }
+        .main-about{
+          
+            height: auto;
+        }
+        .john{
+            position: relative;
+          left: 10%;
+            width: 80%;
+            top: 5%;
+           
+           
+        }
+        .mary{
+            position: relative;
+         top: 5%;
+            width: 80%;
+            left: 10%;
+        
+        }
+        .hana{
+            position: relative;
+          top: 5%;
+            width: 80%;
+            left:10%;
+        }
+        .jane{
+            position: relative;
+          top: 5%;
+            width: 80%;
+           left: 10%;
+           
+        }
+        .team-content{
+            position: relative;
+            width: 75%;
+            left: 10%;
+          
+           height: 100px;
+           top: 30px;
+           text-align: center;
+        }
+       
+        .john-img{
+            position: relative;
+          
+            width: 50%;
+           
+           
+    
+        }
+        .john-text{
+            position: relative;
+            left: 1%;
+        }
+        .team{
+            height: auto;
+          
+        }
+       
+        .end-content{
+            width: 80%;
+            left: 10%;
+        }
+        .end{
+            height: 350px;
+        }
+        .copy{
+            left: 10%;
+            font-size: 10px;
+            top: 90%;
+        }
+        .main-baby{
+         
+            height: 250vh;
+        }
+        .multisure{
+            height: 45%;
+            width: 40%;
+            left: 30%;
+          
+        }
+
+        .baby{
+            position: relative;
+           
+        }
+        .milk{
+            position: relative;
+            width: 80%;
+            left: 10%;
+            top: 30px;
+            height: 60vh;
+        }
+        .lotion{
+            position: relative;
+            width: 80%;
+            left: 10%;
+            top: 60px;
+            height: 50vh;
+        }
+        .feeder{
+            position: relative;
+            width: 80%;
+            left: 10%;
+            top: 90px;
+            height: 50vh;
+        }
+        .bath{
+            position: relative;
+            width: 80%;
+            left: 10%;
+            top: 120px;
+            height: 50vh;
+        }
+        .raper-coment{
+           
+            height:150vh;
+        }
+        .he-t{
+            left: 35%;
+        }
+        .box1{
+position: relative;
+height:160px;
+left: 10%;
+width: 80%;
+        }
+        .box2{
+position: relative;
+height:160px;
+left: 10%;
+width: 80%;
+top: 140px;
+        }
+        .box3{
+position: relative;
+height:160px;
+left: 10%;
+width: 80%;
+top: 190px;
+        }
+        
+
+    
+}
